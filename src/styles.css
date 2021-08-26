@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+.App {
+  font-family: Circular, spotify-circular, Helvetica, Arial, sans-serif;
+  padding: 2rem;
+  margin: auto;
+
+  max-width: 700px;
+}
+
+body {
+  background-color: white;
+}
+
+.genre-container {
+  background-color: #f8f8f8;
+  padding: 1rem;
+  text-align: center;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+}
+
+.btn-genre {
+  cursor: pointer;
+  background: #ed36a8;
+  padding: 0.5rem 1rem;
+  margin: 1rem 0.3rem;
+
+  border: 2px solid #f8f8f8;
+  border-radius: 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  color: #fff;
+}
+.songs-constainer {
+  background-color: #f8f8f8;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+}
+
+.list-unordered {
+  text-align: left;
+  padding-inline-start: 0;
+}
+.list-unordered li {
+  list-style: none;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+
+  background-color: #6c0ee0;
+  background: linear-gradient(-45deg, #6c0ee0 -5%, #f037a6);
+  color: white;
+}
+
+.list-unordered li:last-child {
+  margin-bottom: 0;
+}
+
+.song-details {
+  display: flex;
+  align-items: center;
+}
+
+.song-details div {
+  /* border: 1px solid white; */
+  margin-right: 0.5rem;
+}
